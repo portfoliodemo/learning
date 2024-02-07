@@ -1,0 +1,67 @@
+
+/* Add Border Box to all elements */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Visualize every element with a white box - debugging */
+/* * {
+    outline: 1px solid whitesmoke !important;
+  } */
+
+/* :root {
+    --header-bg-color-black: rgb(46, 49, 54);
+    --header-bg-color-faded-grey: #3f3f3fd3; 
+    --font-family-bubblegum: 'Bubblegum Sans', cursive;
+    --font-family-corben: 'Corben', cursive;
+    --font-family-limelight: 'Limelight', cursive;
+    --font-family-raleway: 'Raleway', sans-serif; 
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-inconsolata: 'Inconsolata', sans-serif;
+} */
+
+/* CSS Resets */
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---------- */
+
+header {
+    display: grid;
+    justify-items: center;
+    background-color: #000000;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+.mozilla {
+    display: grid;
+    justify-items: center;
+    background-color: #000000;
+    color: #ffffff;
+}
